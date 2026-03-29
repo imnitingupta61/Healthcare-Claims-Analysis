@@ -1,14 +1,38 @@
-# Healthcare Claims SQL Project
+# Healthcare Claims Analysis
 
-This repository contains SQL practice and analytics exercises based on healthcare claims data.
+## Overview
+This notebook presents SQL-based analysis on healthcare claims data, focusing on provider performance, member activity, and claim trends. The objective is to derive meaningful business insights relevant to the healthcare domain.
 
-## Topics Covered
-- Joins (Inner, Left, Right, Full)
-- Aggregations & GROUP BY
-- Multi-layer CTE
-- Window Functions (ROW_NUMBER, RANK, LAG/LEAD)
-- Healthcare-specific queries (Denial rate, Claim aging, Member timeline)
+## Tools Used
+- SQL (SQLite)
+- Python (Pandas, Jupyter Notebook)
 
-## Tools
-- SQLite (Jupyter Notebook)
-- Python + pandas
+## Dataset
+The analysis is based on healthcare-related tables:
+- Members
+- Providers
+- Claims
+
+## Key Analysis
+- Total claims and total claim amount
+- Provider-wise performance analysis
+- Member-wise claim activity
+- Claim status analysis (Approved / Pending)
+- High-value claims identification
+- Latest claim per member
+- Window functions (ROW_NUMBER, RANK, running totals)
+- Claim aging analysis
+
+## Business Insights
+- A small number of providers contribute to a large share of total claim amount
+- Certain members show repeated claim activity, indicating higher healthcare utilization
+- High-value claims may require additional validation or review
+- Claim status distribution highlights approval and pending trends
+- Claim patterns help identify potential anomalies or risk areas
+
+## Why This Work Matters
+This analysis demonstrates the application of SQL in a healthcare context, combining domain understanding with data analysis skills. It reflects real-world reporting scenarios relevant for Healthcare Data Analyst roles.
+
+## Author
+Nitin Gupta  
+Healthcare Domain | SQL | Python | Aspiring Data Analyst
