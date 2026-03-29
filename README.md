@@ -1,7 +1,7 @@
 # Healthcare Claims Analysis
 
 ## Overview
-This notebook presents SQL-based analysis on healthcare claims data, focusing on provider performance, member activity, and claim trends. The objective is to derive meaningful business insights relevant to the healthcare domain.
+This notebook presents SQL-based analysis on healthcare claims data, focusing on provider performance, member activity, and claim trends.The goal is to explore claim data and extract useful insights related to providers and members.
 
 ## Tools Used
 - SQL (SQLite)
